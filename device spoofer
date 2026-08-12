@@ -1,0 +1,3 @@
+local ReplicatedStorage = game:GetService('ReplicatedStorage')
+
+ReplicatedStorage.Remotes.Replication.Fighter.SetControls:FireServer("VR") -- "Touch", "Gamepad", "MouseKeyboard"
